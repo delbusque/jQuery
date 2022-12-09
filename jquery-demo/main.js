@@ -1,4 +1,4 @@
-$("#btn").click(() => alert('Hello jQuery !'));
+$("#btn-1").click(() => alert('Hello jQuery !'));
 
 $(document).ready(() => $(".image").click(() => alert('Image clicked !')));
 
