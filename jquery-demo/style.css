@@ -2,14 +2,32 @@ body {
     background-color: gainsboro;
 }
 
+.container {
+    width: 600px;
+    height: 450px;
+    margin: 0 auto;
+}
+
 .heading {
     text-align: center;
 }
 
 .image {
-    display: block;
-    margin: auto;
-    height: 80vh;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.event-list {
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+.event-list p:nth-child(1) {
+    margin-top: 0;
 }
 
 .btn {
