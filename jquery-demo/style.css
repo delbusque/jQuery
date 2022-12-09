@@ -1,0 +1,16 @@
+.container {}
+
+.heading {
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    height: 80vh;
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+}
