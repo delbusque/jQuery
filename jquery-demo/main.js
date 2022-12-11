@@ -1,8 +1,8 @@
 $(document).ready(() => $(".image").click(() => alert('Image clicked !')));
 
-$("h1.heading").click(function () {
-    $(this).hide()
-});
+// $("h1.heading").click(function () {
+//     $(this).hide()
+// });
 
 $('#p1').hover(function () {
     $(this).hide()
@@ -36,3 +36,8 @@ $('#btn-3').click(() => {
     }, 500)
 })
 
+$('.heading').click(() => $('.event-list').slideToggle())
+
+$('#scroll').click(() => $('html, body').animate({
+    scrollTop: $('.lorem').offset().top
+}, 1000))

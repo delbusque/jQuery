@@ -25,6 +25,7 @@ body {
     display: inline-block;
     margin-left: 30px;
     vertical-align: top;
+
 }
 
 .event-list p:nth-child(1) {
@@ -44,6 +45,7 @@ body {
     border: none;
     border-radius: 3px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #image-2 {
