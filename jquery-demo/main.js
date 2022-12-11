@@ -1,5 +1,3 @@
-$("#btn-1").click(() => alert('Hello jQuery !'));
-
 $(document).ready(() => $(".image").click(() => alert('Image clicked !')));
 
 $("h1.heading").click(function () {
@@ -27,3 +25,9 @@ $(document).keypress((e) => {
 $('#btn-2').click(() => $('#image').toggle(100, () => {
     $('#image-2').fadeToggle(200)
 }))
+
+$("#btn-1").click(() => {
+    $('#image').fadeTo(500, 0.5);
+
+});
+
