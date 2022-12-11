@@ -23,3 +23,7 @@ $(document).keypress((e) => {
         $('#p5').hide()
     }
 });
+
+$('#btn-2').click(() => $('#image').toggle(100, () => {
+    $('#image-2').toggle(100)
+}))
