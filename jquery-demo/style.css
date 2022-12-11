@@ -52,3 +52,12 @@ body {
     display: none;
     margin-left: 30px;
 }
+
+.view-data {
+    padding: 15px;
+    width: 200px;
+    height: 170px;
+    background-color: rgba(4, 45, 13, 0.737);
+    color: beige;
+
+}

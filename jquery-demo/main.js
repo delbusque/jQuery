@@ -41,3 +41,9 @@ $('.heading').click(() => $('.event-list').slideToggle())
 $('#scroll').click(() => $('html, body').animate({
     scrollTop: $('.lorem').offset().top
 }, 1000))
+
+$('#ajax').click(() => {
+    $.get('https://swapi.dev/api/people', (data, status) => {
+        $('.view-data').text(data.results.map(r => ` ${r.name}`))
+    })
+})
