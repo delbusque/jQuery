@@ -3,6 +3,7 @@ body {
 }
 
 .container {
+    display: flex;
     width: 600px;
     height: 450px;
     margin: 0 auto;
@@ -36,4 +37,15 @@ body {
 
 .btn {
     margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(117, 147, 64);
+    color: beige;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+#image-2 {
+    display: none;
+    margin-left: 30px;
 }
