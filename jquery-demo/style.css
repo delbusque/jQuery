@@ -3,7 +3,6 @@ body {
 }
 
 .container {
-    display: flex;
     width: 600px;
     height: 450px;
     margin: 0 auto;
@@ -11,6 +10,7 @@ body {
 
 .heading {
     text-align: center;
+    flex-wrap: unset;
 }
 
 .image {
@@ -33,6 +33,7 @@ body {
 
 .btns-container {
     text-align: center;
+    display: block;
 }
 
 .btn {
