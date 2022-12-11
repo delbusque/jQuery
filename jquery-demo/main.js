@@ -27,7 +27,12 @@ $('#btn-2').click(() => $('#image').toggle(100, () => {
 }))
 
 $("#btn-1").click(() => {
-    $('#image').fadeTo(500, 0.5);
-
+    $('main').fadeTo(500, 0.5);
 });
+
+$('#btn-3').click(() => {
+    $('#image').animate({
+        ['border-radius']: '85px',
+    }, 500)
+})
 
