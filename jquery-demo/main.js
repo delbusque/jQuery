@@ -25,5 +25,5 @@ $(document).keypress((e) => {
 });
 
 $('#btn-2').click(() => $('#image').toggle(100, () => {
-    $('#image-2').toggle(100)
+    $('#image-2').fadeToggle(200)
 }))
