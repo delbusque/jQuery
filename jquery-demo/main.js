@@ -31,7 +31,7 @@ $("#btn-1").click(() => {
 });
 
 $('#btn-3').click(() => {
-    $('#image').animate({
+    $('.image').animate({
         ['border-radius']: '85px',
     }, 500)
 })
